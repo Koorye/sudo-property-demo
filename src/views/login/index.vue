@@ -153,7 +153,7 @@ export default {
         if (valid) {
           // 规则校验通过
           request({
-            baseURL: 'http://106.14.197.71:8080/api-v1',
+            baseURL: this.$global.baseURL,
             method: 'post',
             url: 'accounts/login',
             data: qs.stringify({

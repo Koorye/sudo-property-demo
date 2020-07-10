@@ -1,5 +1,5 @@
-const baseURL = 'http://106.14.197.71:8080/api-v1'
-const version = '1.0.2 Beta'
+const baseURL = 'https://api.imlehr.com/sudo'
+const version = '1.0.3 Beta'
 
 export default {
   baseURL,
